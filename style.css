@@ -1,0 +1,63 @@
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.809),rgba(0, 0, 0, 0.526)),url(img/hero-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: top;
+}
+
+.top-80{
+    top: 90%;
+    color: white;
+}
+
+.letter-spacing{
+    letter-spacing: 15px;
+}
+
+a{
+    transition: all 1s ease-in-out !important;
+}
+
+a:hover{
+    border-bottom: 1px solid white;
+}
+
+.offcanvas{
+    width: 50% !important;
+}
+
+.kenar{
+    border-bottom: 1px solid black !important;
+}
+
+::placeholder{
+    color: black;
+}
+
+input:focus{
+    outline: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .sol-yazi{
+        font-size: 14px;
+    }
+    ::placeholder{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .btn-yazi-boyut{
+        font-size: 12px;
+    }
+
+    .ad-boyut{
+        font-size: 15px;
+    }
+
+    .pozisyon-boyut{
+        font-size: 14px;
+    }
+}
